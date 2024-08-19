@@ -1,0 +1,4 @@
+<tr>
+  <td><%= invoice.id %></td>
+  <td><%= invoice.orders.any? ? invoice.orders.first.customer.name : "No Orders" %></td>
+</tr>
